@@ -152,7 +152,7 @@
 }
 
 .header-7-2 {
-  font-size: 15px;
+  font-size: 18px;
   transition: 0.8s;
   font-weight: 500;
   color: #6b6b75;
@@ -160,6 +160,18 @@
 
 .header-8 {
   font-size: 30px;
+}
+
+.par {
+  font-size: 18px;
+  font-weight: 400;
+  line-height:1.5;
+}
+
+.par-offer {
+  font-size: 13px;
+  font-weight: 400;
+  line-height:1.5;
 }
 
 .img {
@@ -372,11 +384,11 @@ a {
 }
 
 .icon-students {
-  height: 250px;
+  height: 200px;
 }
 
 .icon-companies {
-  height: 250px;
+  height: 200px;
 }
 
 .icon-community {
@@ -430,6 +442,10 @@ p {
 
 .card {
   transition-duration: 0.5s !important;
+}
+
+.card-border {
+  border-radius: 2.5%;
 }
 
 .ovl {
@@ -492,6 +508,18 @@ p {
   font-weight: 500;
 }
 
+.prof-dev-img {
+  width:80% !important;
+}
+
+.project-img {
+  width: 50% !important;
+}
+
+.community-img {
+  width:100% !important;
+}
+
 .start-application {
   font-weight: 600;
   border-radius: 5px;
@@ -547,4 +575,105 @@ p {
 
 .fall2020-infographic {
   height: 400px;
+}
+
+/* Elizabeth */
+
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+
+.chart {
+  position: relative;
+  /* width: 560px;
+  height: 260px; */
+  width: 420px;
+  height: 195px;
+  margin: 1em auto;
+  /* background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 2px, transparent 2px, transparent 100%); */
+  background-size: 29px 29px;
+  background-position: -11px 11px;
+}
+
+.dataset {
+  fill-opacity: 0.8;
+  -webkit-filter: url(#dropshadow);
+          filter: url(#dropshadow);
+}
+
+/* First front layer */
+#dataset-1 {
+  /* fill: #50E3C2; */
+  fill: #12a34c;
+  /* stroke: #12a34c;
+  stroke-width: 5; */
+}
+
+#dataset-2 {
+  /* fill: #21A6EE; */
+  fill: #eb3474;
+}
+
+#dataset-3 {
+  /* fill: #807CCC; */
+  fill: orange;
+  /* stroke: orange;
+  stroke-width: 5; */
+}
+
+@-webkit-keyframes raise {
+  0% {
+    -webkit-transform: scaleY(0.01);
+            transform: scaleY(0.01);
+  }
+  75% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes raise {
+  0% {
+    -webkit-transform: scaleY(0.01);
+            transform: scaleY(0.01);
+  }
+  75% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+.dataset {
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: scaleY(0.01);
+          transform: scaleY(0.01);
+  opacity: 0.5;
+}
+
+.loaded .dataset {
+  opacity: 1;
+  -webkit-animation: raise 0.5s ease 0.2s forwards;
+          animation: raise 0.5s ease 0.2s forwards;
+}
+
+.loaded #dataset-1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.loaded #dataset-2 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.loaded #dataset-3 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
