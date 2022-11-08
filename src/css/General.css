@@ -107,7 +107,7 @@
 }
 
 .header {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 600;
   color: #122240;
 }
@@ -127,7 +127,7 @@
 .header-3-2 {
   font-size: 30px;
   font-weight: 500;
-  color: black;
+  color: orange;
 }
 
 .header-4 {
@@ -181,7 +181,6 @@
 .img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
-
 
 .pink {
   color: #eb3474;
@@ -351,7 +350,7 @@ a:hover {
     url(../../images/socialonglade2.jpg);*/
   /* background: linear-gradient(33deg, #ffcd00, #ffdd56); */
   background-size: 150%;
-  /*background-image: url("../imgs/20209_8.jpg"); - old background with lines and dots*/
+  background-image: url("../imgs/20209_8.jpg");
 
   /* -webkit-animation: main-content-animate 15s ease infinite;
   -moz-animation: main-content-animate 15s ease infinite;
@@ -471,10 +470,6 @@ p {
   opacity: 0;
 }
 
-.instagram {
-	transition-duration: 1s;
-}
-
 .profile {
   height: 50%;
 }
@@ -526,7 +521,6 @@ p {
 }
 
 .start-application {
-  background-color: gray;
   font-weight: 600;
   border-radius: 5px;
   padding: 10px;
