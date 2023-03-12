@@ -474,6 +474,9 @@ p {
   height: 50%;
 }
 
+#contactUsForm {
+	margin-top:10%;
+}
 .vertical-line {
   border-left: 2px solid #3d3d40;
   height: 300px;
