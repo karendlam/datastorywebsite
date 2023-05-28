@@ -7,7 +7,7 @@
 		<title> DataStory </title>
 
 		<!-- Page tab icon -->
-		<link href="./src/imgs/icon.png" rel="icon" type="image/png" />
+    <link href="./src/imgs/icon.png" rel="icon" type="image/png" />
 
 	    <!-- Required meta tags -->
 	    <meta charset="utf-8">
@@ -20,21 +20,25 @@
 
 	    <!-- Font -->
 	    <link
-	        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	        href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap'
 	        rel="stylesheet">
 
 	    <!-- StyleSheet -->
-            <link rel="stylesheet" type="text/css" href="./src/css/General.css">
-
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<!--             <link rel="stylesheet" href="./src/banner_animation/style.css"> -->
+			<link rel="stylesheet" type="text/css" href="./src/css/General.css">
 
 		<!-- aos (animate on scroll) -->
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+		<!-- slick -->
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+
+
 		<!-- font awesome -->
 		 <script src="https://kit.fontawesome.com/23936ea4cc.js" crossorigin="anonymous"></script>
-
+		 
 
 	</head>
 
@@ -42,67 +46,43 @@
 
 		<!-- -1. Navbar -->
 
-		<nav class="navbar navbar-expand-lg montserrat navbar-light">
-        <div class="container">
-			<a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
+		<nav class="navbar navbar-expand-lg navbar blue">
+			<div class="container">
+			  <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
 				<img
 				  src="./src/imgs/logo.png"
-				  height="30"
-				  width="150"
+				  height="96"
+				  width="210"
 				/>
 			  </a>
-          <a class="navbar-brand facebook" href="https://www.facebook.com/DataStoryConsulting/" data-aos="fade-down" data-aos-duration="750">
-            <img
-              src="./src/imgs/f_logo.png"
-              height="25"
-            />
-          </a>
-          <a class="navbar-brand linkedin" href="https://www.linkedin.com/company/datastoryconsulting/" data-aos="fade-down" data-aos-duration="800">
-            <img
-              src="./src/imgs/l_logo.png"
-              height="25"
-            />
-          </a>
-		  <a class="navbar-brand" href="https://www.instagram.com/datastoryberkeley/" data-aos="fade-down" data-aos-duration="800">
-            <img
-              src="./src/imgs/i_logo.png"
-              height="25"
-            />
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-            	<li class="nav-item link" data-aos="fade-down" data-aos-duration="700">
-              <a href="about.html">
-                About
-                </a>
-            </li>
-            <li class="nav-item link" data-aos="fade-down" data-aos-duration="750">
-              <a href="projects.html">
-                Projects
-                </a>
-            </li>
-            <li class="nav-item link" data-aos="fade-down" data-aos-duration="800">
-              <a href="events.html">
-                Events
-                </a>
-            </li>
-            <li class="nav-item link" data-aos="fade-down" data-aos-duration="850">
-              <a href="contact.html">
-                Contact
-                </a>
-            </li>
-            <li class="nav-item link" data-aos="fade-down" data-aos-duration="900">
-              <a href="apply.html">
-                Apply
-                </a>
-            </li>
-            </ul>
-          </div>
-        </div class="container">
-      </nav>
+		
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				  
+					<li class="nav-item" data-aos="fade-down" data-aos-duration="700">
+				  <a class="nav-link" href="about.html">ABOUT</a>
+				  </li>
+				  <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
+					<a class="nav-link" href="projects.html">PROJECTS</a>
+				  </li>
+				  <!--<li class="nav-item" data-aos="fade-down" data-aos-duration="800">
+					<a class="nav-link" href="our-team.html">COMMITTEES</a>
+				  </li> -->
+				  <li class="nav-item" data-aos="fade-down" data-aos-duration="850">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				  </li>
+				  <li class="nav-item" data-aos="fade-down" data-aos-duration="900">
+					<a class="nav-link" href="apply.html">APPLY</a>
+				  </li>
+				  
+				</ul>
+			  </div>
+			</div class="container">
+		  </nav>  
 
 
 		<!-- main contaner -->

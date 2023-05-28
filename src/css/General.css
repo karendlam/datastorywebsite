@@ -1,9 +1,22 @@
+.description-box {
+  background-color: rgb(150, 150, 150); 
+  padding: 10px;
+}
+
+.p170 {
+  padding-top: 170px;
+}
+
 .p150 {
   padding-top: 140px;
 }
 
 .p100 {
   padding-top: 100px;
+}
+
+.p75 {
+  padding-top: 75px;
 }
 
 .p50 {
@@ -20,6 +33,14 @@
 
 .p5 {
   padding-top: 5px;
+}
+
+.p2 {
+  padding-top: 2px;
+}
+
+.p0 {
+  padding-top: 0px;
 }
 
 .pb150 {
@@ -46,6 +67,10 @@
   padding-bottom: 5px;
 }
 
+.pb0 {
+  padding-bottom: 0px;
+}
+
 .pl150 {
   padding-left: 150px;
 }
@@ -60,6 +85,14 @@
 
 .pl25 {
   padding-left: 25px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl5 {
+  padding-left: 5px;
 }
 
 .pr150 {
@@ -106,10 +139,28 @@
   margin-bottom: 100px;
 }
 
-.header {
-  font-size: 57px;
+.header-navy {
+  font-size: 80px;
   font-weight: 600;
   color: #122240;
+}
+
+.header-DSgreen {
+  font-size: 100px;
+  font-weight: 600;
+  color: #408073
+}
+
+.header-DSorange {
+  font-size: px;
+  font-weight: 600;
+  color: #FEBF69
+}
+
+.header-white {
+  font-size: 100px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 .header-2 {
@@ -194,16 +245,38 @@
   color: #12a34c;
 }
 
+.linkedin-blue {
+  color: #0077b5;
+}
+
+.ds-green {
+  color: #408073;
+}
+
+.ds-orange {
+  color: #FEBF69;
+}
+
 .bg-green {
-  background-color: #12a34c;
+  background-color: #408073;
+}
+
+.bg-green-gradient {
+  background: radial-gradient(#408073, #4080733a);
+}
+
+.bg-dark-orange {
+  background-color: #FF9F1C;
 }
 
 .bg-orange {
-  background-color: orange;
+  background-color: #FEBF69;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -289,13 +362,23 @@ a:hover {
 
 .montserrat {
   font-family: "Montserrat", sans-serif !important;
-  font-weight: lighter;
+  /*font-weight: lighter;*/
+}
+
+.hanken-grotesk {
+  font-family: "Hanken Grotesk", sans-serif !important;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif !important;
 }
 
 .light {
   color: white;
   font-weight: 100;
 }
+
+
 
 .grey {
   background-color: #f2f4f7;
@@ -345,6 +428,7 @@ a:hover {
   width: 200px;
 }
 
+/*the background template*/
 .main-content {
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../../images/socialonglade2.jpg);*/
@@ -363,6 +447,28 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+}
+/*about us main background*/
+.about-us-content {
+
+  background-size: 150%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 35%,
+    #fec06916
+  ),url("../imgs/datastory-group-photo-sp2023.jpeg");
+  /* -webkit-animation: main-content-animate 15s ease infinite;
+  -moz-animation: main-content-animate 15s ease infinite;
+
+  animation: main-content-animate 15s ease infinite; */
+  text-align: center;
+  /*Responsive image stuff */
+  height: 610px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-description {
@@ -546,10 +652,10 @@ p {
 }
 
 .prof-pic {
-  padding-top: 30px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .prof-linkedin {
