@@ -152,7 +152,7 @@
 }
 
 .header-DSorange {
-  font-size: px;
+  font-size: 100px;
   font-weight: 600;
   color: #FEBF69
 }
@@ -164,7 +164,7 @@
 }
 
 .header-2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   color: #3d3d40;
 }
@@ -214,7 +214,7 @@
 }
 
 .par {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 400;
   line-height:1.5;
 }
@@ -434,7 +434,11 @@ a:hover {
     url(../../images/socialonglade2.jpg);*/
   /* background: linear-gradient(33deg, #ffcd00, #ffdd56); */
   background-size: 150%;
-  background-image: url("../imgs/20209_8.jpg");
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 35%,
+    #fec06916
+  ),url("../imgs/20209_8.jpg");
 
   /* -webkit-animation: main-content-animate 15s ease infinite;
   -moz-animation: main-content-animate 15s ease infinite;
@@ -442,11 +446,11 @@ a:hover {
   animation: main-content-animate 15s ease infinite; */
   text-align: center;
   /*Responsive image stuff */
-  height: 660px;
+  height: 610px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 /*about us main background*/
 .about-us-content {
