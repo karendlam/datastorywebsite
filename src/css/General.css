@@ -362,6 +362,7 @@ a:hover {
 
 .montserrat {
   font-family: "Montserrat", sans-serif !important;
+  font-weight: 400;
   /*font-weight: lighter;*/
 }
 
@@ -375,7 +376,7 @@ a:hover {
 
 .light {
   color: white;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 
@@ -475,9 +476,34 @@ a:hover {
   background-size: cover;
 }
 
+
 .about-description {
   font-size: 20px;
   text-align: left;
+}
+
+.project-content {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../images/socialonglade2.jpg);*/
+  /* background: linear-gradient(33deg, #ffcd00, #ffdd56); */
+  background-size: 150%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 20%,
+    #fec06916
+  ), url("../imgs/consulting-group-photo-projects.jpeg");
+
+  /* -webkit-animation: main-content-animate 15s ease infinite;
+  -moz-animation: main-content-animate 15s ease infinite;
+
+  animation: main-content-animate 15s ease infinite; */
+  text-align: center;
+  /*Responsive image stuff */
+  height: 610px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .what-we-offer {
