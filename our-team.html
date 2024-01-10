@@ -46,66 +46,76 @@
 
 		<!-- -1. Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar blue">
-      <div class="container">
-        <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
-          <img
-            src="./src/imgs/logo.png"
-            height="96"
-            width="210"
-          />
-        </a>
-  
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            
-              <li class="nav-item" data-aos="fade-down" data-aos-duration="700">
-            <a class="nav-link" href="about.html">ABOUT</a>
-            </li>
-            <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
-              <a class="nav-link" href="projects.html">PROJECTS</a>
-            </li>
-            <li class="nav-item" data-aos="fade-down" data-aos-duration="800">
-              <a class="nav-link" href="our-team.html">COMMITTEES</a>
-            </li>
-            <li class="nav-item" data-aos="fade-down" data-aos-duration="850">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-            <!--<li class="nav-item" data-aos="fade-down" data-aos-duration="900">
-              <a class="nav-link" href="recruitment-page.html">APPLY</a>
-            </li>
-            
-          </ul>
-        </div>
-      </div class="container">
-    </nav>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light white">
+			<div class="container">
+			  <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
+				<img
+				  src="./src/imgs/logo.png"
+				  height="96"
+				  width="210"
+				/>
+			  </a>
+		
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				  
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="700">
+            <a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
+            <a class="nav-link" href="projects.html">PROJECTS</a></li>
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
+            <a class="nav-link" href="events.html">EVENTS</a></li>
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="800">
+              <a class="nav-link" href="our-team.html">OUR TEAM</a></li> 
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="850">
+              <a class="nav-link" href="recruitment-page.html">APPLY</a></li>
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="900">
+              <a class="nav-link" href="coffee-chats.html">COFFEE CHATS</a></li>
+          <li class="nav-item" data-aos="fade-down" data-aos-duration="950">
+              <a class="nav-link" href="contact.html">CONTACT</a></li>
+				  
+				</ul>
+			  </div>
+			</div class="container">
+		 </nav>    
 
       <!-- main container -->
-      <main class="CONTAINER hanken-grotesk">
+      <main class="CONTAINER">
 
     	<!-- 0. Main Banner -->
-        <div class="container-fluid ">
-          <div class="about-us-content" data-aos="fade-in" data-aos-duration="500">
-            <h1 class="header-DSgreen p100" data-aos="fade-down" data-aos-duration="800">WHO WE ARE</h1>
-            <h1 class="header-3 montserrat p5" style="color: #1b3631;" data-aos="fade-down" data-aos-duration="500">LEARN MORE ABOUT OUR TEAMS!</h1>
-            <!-- <button type="button" class="btn btn-default btn-lg" data-aos="fade-in">
-                    <a href="#scrollto" class="fa fa-angle-down" aria-hidden="true"></a> -->
-            </button>
+
+      <div class="container-fluid hanken-grotesk">
+        <div class="main-content light" style="height: 740px; background-image: linear-gradient(
+          to bottom,
+          rgb(255, 255, 255) 20%,
+          #fec06916
+        ),url('./src/imgs/consulting/23sp-consulting-group.jpeg');" data-aos="fade-in" data-aos-duration="500">
+          <h1 class="header-DSgreen p10" style="font-size:90px;" data-aos="fade-down" data-aos-duration="500">
+            <br>
+            MEET OUR MEMBERS
+          </h1>
+          
+        </div>
+      </div>
+
+      
+      <!-- exec -->
+
+
+      <div id="scrollto" class="p50 pl150 pr150">
+        <div class=" container-fluid hanken-grotesk">
+          <div class="row center" data-aos="fade-up">
+            <h1 class="header-DSgreen" style="font-size:70px;" data-aos="fade-up"> EXECUTIVE BOARD</h1>
           </div>
         </div>
+      </div>
 
-        <!-- 3.1 exec -->
 
-
-        <div id="exec-members" class="container-fluid Pictures p50 pb50" style="background: radial-gradient(#fec069bb, white 90%);">
-
-          <div class="container-fluid row center p50" data-aos="fade-up">
-            <h1 class="header-DSgreen pb50" style="font-size:80px;"> EXECUTIVE BOARD</h1>
-          </div>
+        <div id="exec-members" class="container-fluid Pictures p10" style="background: radial-gradient(circle 800px, #fec069bb 10%, white);">
 
           <div class = "container">
 
@@ -115,11 +125,11 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/yash_hande.jpeg"
+                    src="./src/imgs/profiles/yash-hande.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text p100" >Junior</p>
                     <p class="prof-role card-text">Economics</p>
                   </div> 
                 </div>
@@ -138,46 +148,45 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/neha_shirolkar.jpeg"
+                    src="./src/imgs/profiles/bryan-hwang.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text p75">Sophomore</p>
                     <p class="prof-role card-text">Data Science 
-                      <br> & Economics</p>
-                  </div> 
-                </div>
-                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-                  
-                  <div class = "card-title p5"> William Bozzella
-                    <div class = "card-subtitle p5">
-                      <em>External VP</em>
-                      <a href= "https://www.linkedin.com/in/william-bozzella-a4a9ab221" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
-                <div class="card">
-                  <img
-                    variant="top"
-                    src="./src/imgs/profiles/divya_mallemadugula.jpeg"
-                    class="profile card-img-top"
-                  />
-                  <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Junior</p>
-                    <p class="prof-role card-text">Computer Science 
                       <br> & Statistics</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Divya Mallemadugula
+                  <div class = "card-title p5"> Bryan Hwang
+                    <div class = "card-subtitle p5">
+                      <em>External VP</em>
+                      <a href= "https://www.linkedin.com/in/bryanhwangg/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/david-remland.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> David Remland
                     <div class = "card-subtitle p5">
                       <em>Internal VP</em>
-                      <a href= "https://www.linkedin.com/in/divya-mallemadugula-755ba5188/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <a href= "https://www.linkedin.com/in/david-remland-11167a233/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -187,7 +196,7 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/rushi.png"
+                    src="./src/imgs/profiles/rushi-patel.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
@@ -220,68 +229,68 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/asutosh-jain.jpeg"
+                    src="./src/imgs/profiles/hailey-holcomb.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
                     <p class="prof-role card-text p100">Junior</p>
-                    <p class="prof-role card-text">Energy Engineering</p>
-                  </div> 
-                </div>
-                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-                  
-                  <div class = "card-title p5"> Asutosh Jain
-                    <div class = "card-subtitle p5">
-                      <em>VP of Projects</em>
-                      <a href= "https://www.linkedin.com/in/asutosh-jain-b295091ba/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="prof-pic col-xs-6 col-s-6 col-md-3">
-                <div class="card">
-                  <img
-                    variant="top"
-                    src="./src/imgs/profiles/sepher_orig.jpg"
-                    class="profile card-img-top"
-                  />
-                  <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p100">Senior</p>
                     <p class="prof-role card-text">Data Science</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Sepher Khosravi
+                  <div class = "card-title p5"> Hailey Holcomb
                     <div class = "card-subtitle p5">
                       <em>VP of Projects</em>
-                      <a href= "https://www.linkedin.com/in/sepehrkhosravi/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <a href= "https://www.linkedin.com/in/hailey-holcomb-1848a222a/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
                     </div>
                   </div>
-
                 </div>
-              </div> -->
+              </div>
 
               <div class="prof-pic col-xs-6 col-s-6 col-md-3">
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/david-remland.jpeg"
+                    src="./src/imgs/profiles/pulak-dugar.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text p100">Sophomore</p>
+                    <p class="prof-role card-text">Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Pulak Dugar
+                    <div class = "card-subtitle p5">
+                      <em>VP of Projects</em>
+                      <a href= "https://www.linkedin.com/in/pulak-dugar/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/sara-miller.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
                     <p class="prof-role card-text">Data Science 
                       <br> & Computer Science</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> David Remland
+                  <div class = "card-title p5"> Sara Miller
                     <div class = "card-subtitle p5">
                       <em>VP of Prof Dev</em>
-                      <a href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <a href= "https://www.linkedin.com/in/sara-miller-173108257/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -291,20 +300,20 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/napoleon-vuong.jpeg"
+                    src="./src/imgs/profiles/lawrence-shieh.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p100">Senior</p>
+                    <p class="prof-role card-text p100">Junior</p>
                     <p class="prof-role card-text">Data Science</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Napoleon Vuong
+                  <div class = "card-title p5"> Lawrence Shieh
                     <div class = "card-subtitle p5">
                       <em>VP of Prof Dev</em>
-                      <a href= "https://www.linkedin.com/in/napoleon-vuong/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <a href= "https://www.linkedin.com/in/lawrence92/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
                     </div>
                   </div>
 
@@ -324,21 +333,22 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/mackenzie.png"
+                    src="./src/imgs/profiles/riley-hansen.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Senior</p>
-                    <p class="prof-role card-text">Data Science 
-                      <br> & Public Health</p>
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Environmental Economics 
+                      <br> + Policy </p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Mackenzie Moffit
+                  <div class = "card-title p5"> Riley Hansen
                     <div class = "card-subtitle p5">
-                      <em>Director of Exploration</em>
-                      <a href= "https://www.linkedin.com/in/mackenzie-moffit/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <em>Jr VP of Operations</em>
+                      <a href= "https://www.linkedin.com/in/rileyhansenn/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -348,7 +358,677 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/neha_shirolkar.jpeg"
+                    src="./src/imgs/profiles/aadya-agarwal.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Statistics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Aadya Agarwal
+                    <div class = "card-subtitle p5">
+                      <em>Director of Exploration</em>
+                      <a href= "https://www.linkedin.com/in/aadya-ag/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/avyuktha-mattupalli.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Avyuktha Mattupalli
+                    <div class = "card-subtitle p5">
+                      <em>Director of Exploration</em>
+                      <a href= "https://www.linkedin.com/in/avyuktha-mattupalli-9134a8249/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/ashika-thomas.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Business
+                      Administration</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Ashika Thomas
+                    <div class = "card-subtitle p5">
+                      <em>Director of Marketing </em>
+                      <a href= "https://www.linkedin.com/in/ashikathomas/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class = "container">
+
+            <div class="row p-4">
+              
+
+            <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+              <div class="card">
+                <img
+                  variant="top"
+                  src="./src/imgs/profiles/karen-lam.jpeg"
+                  class="profile card-img-top"
+                />
+                <div class="card-img-overlay ovl">
+                  <p class="prof-role card-text p75">Junior</p>
+                  <p class="prof-role card-text">Data Science 
+                    <br> & Computer Science</p>
+                </div> 
+              </div>
+              <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                
+                <div class = "card-title p5"> Karen Lam
+                  <div class = "card-subtitle p5">
+                    <em>Director of Web Dev</em>
+                    <a href= "https://www.linkedin.com/in/k4rendlam/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+           </div>
+        
+          </div>
+        </div>
+
+        <!-- consultants -->
+
+        <div id="scrollto" class="p50 pl150 pr150">
+          <div class=" container-fluid hanken-grotesk">
+            <div class="row center" data-aos="fade-up">
+              <h1 class="header-DSgreen" style="font-size:70px;" data-aos="fade-up"> CONSULTANTS</h1>
+            </div>
+          </div>
+        </div>
+
+        <div id="consulting-members" class="container-fluid Pictures p30" style="background: radial-gradient(circle 1350px, #fec069bb 10%, white);">
+
+        <!-- pms row 1 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/alex-nii.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100" >Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Alex Nii
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/alex-nii/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/athan-massouras.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Applied Math</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Athan Massouras
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/athan-massouras/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/divya_mallemadugula.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Divya Mallemadugula
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/divya-malle/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/maya-joiner.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Computer Science</p>
+                  </div>
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Maya Joiner
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/mayajoiner/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i> </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- pms row 2 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/rushi-patel.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Rushi Patel
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/rushi-patel-6008811b7/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/ryan-chan.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Ryan Chan
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/ryannchan/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/sepher-khosravi.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Senior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Sepher Khosravi
+                    <div class = "card-subtitle p5">
+                      <em>Project Manager</em>
+                      <a href= "https://www.linkedin.com/in/sepehrkhosravi/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- consulting row 1 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/anish-gupta.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100" >Junior</p>
+                    <p class="prof-role card-text">Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Anish Gupta
+                      <a href= "https://www.linkedin.com/in/anishjaygupta/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/anshul-verma.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Electrical Engineering 
+                      <br> & Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Anshul Verma
+                      <a href= "https://www.linkedin.com/in/anshulverma531/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/ashika-thomas.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Business Administration</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Ashika Thomas
+                    <a href= "https://www.linkedin.com/in/ashikathomas/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/ashley-jung.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Economics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Ashley Jung
+                    <a href= "https://www.linkedin.com/in/ashley-d-jung888/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- consulting row 2 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/bryan-hwang.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Statistics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Bryan Hwang
+                    <a href= "https://www.linkedin.com/in/bryanhwangg/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+                  
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/jack-white.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Sophomore</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Jack White
+                    <a href= "https://www.linkedin.com/in/jack-white-568761272/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/katelyn-jo.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                       <br> & Cognitive Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Katelyn Jo
+                    <a href= "https://www.linkedin.com/in/katelyn-jo/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/kayle-marsh.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                       <br> & Computer Science</p>
+                  </div>
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Kayle Marsh
+                    <a href= "https://www.linkedin.com/in/kaylemarsh/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- consulting row 3 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/lawrence-shieh.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Lawrence Shieh
+                    <a href= "https://www.linkedin.com/in/lawrence92/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/matthew-ho.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Public Health</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Matthew Ho
+                    <a href= "https://www.linkedin.com/in/matthewho88/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/piya-shah.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Business Administration</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Piya Shah
+                    <a href= "https://www.linkedin.com/in/piya-shahh/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/ria-jain.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Ria Jain
+                    <a href= "https://www.linkedin.com/in/riajain230/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- consulting row 4 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/riley-hansen.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Environmental Economics 
+                      <br> + Policy </p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Riley Hansen
+                    <a href= "https://www.linkedin.com/in/rileyhansenn/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/sarp-gunhan.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Applied Math</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Sarp Gunhan
+                    <a href= "https://www.linkedin.com/in/sarp-gunhan-45a89b248/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/simon-cha.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Statistics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Simon Cha
+                    <a href= "https://www.linkedin.com/in/simon-cha-9068bb1b3/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/sophia-zheng.jpeg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
@@ -359,10 +1039,255 @@
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Neha Shirolkar
+                  <div class = "card-title p5"> Sophia Zheng
+                    <a href= "https://www.linkedin.com/in/sophizheng/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- consulting row 5-->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/sybil-saeed.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Freshman</p>
+                    <p class="prof-role card-text">Engineering, Math
+                      <br> & Statistics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Sybil Saeed
+                    <a href= "https://www.linkedin.com/in/sybil-saeed-70a150273/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/tyson-gan.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Sophomore</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Tyson Gan
+                    <a href= "https://www.linkedin.com/in/tyson-gan/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/victor-shi.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Computer Science
+                      <br> & Statistics</p>
+                  </div>
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Victor Shi
+                    <a href= "https://www.linkedin.com/in/vzshi/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/will-bozzella.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science 
+                      <br> & Business Administration</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> William Bozzella
+                    <a href= "https://www.linkedin.com/in/william-bozzella/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>     
+        </div>
+
+        <!-- prof dev member-->
+
+        <div id="scrollto" class="p50 pl150 pr150">
+          <div class=" container-fluid hanken-grotesk">
+            <div class="row center" data-aos="fade-up">
+              <h1 class="header-DSgreen" style="font-size:70px;" data-aos="fade-up"> PROFESSIONAL DEVELOPMENT</h1>
+            </div>
+          </div>
+        </div>
+
+        <div id="prof-dev-members" class="container-fluid Pictures p30" style="background: radial-gradient(circle 350px, #fec069bb 10%, white);">
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/alex-yu.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Economics
+                      <br> & Data Science</p>
+                  </div>
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Alexander Yu
                     <div class = "card-subtitle p5">
-                      <em>Director of Exploration</em>
-                      <a href= "https://www.linkedin.com/in/neha-shirolkar-0631971aa/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <em>Behavioral</em>
+                      <a href= "https://www.linkedin.com/in/alexander-yu-7bb0231aa/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/iris-chao.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Business Administration
+                      <br> & Cognitive Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Iris Chao
+                    <div class = "card-subtitle p5">
+                      <em>Behavioral</em>
+                      <a href= "https://www.linkedin.com/in/iris-chao/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/karen-lam.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Karen Lam
+                    <div class = "card-subtitle p5">
+                      <em>Technical</em>
+                      <a href= "https://www.linkedin.com/in/k4rendlam/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/lawrence-shieh.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Lawrence Shieh
+                    <div class = "card-subtitle p5">
+                      <em>Technical</em>
+                      <a href= "https://www.linkedin.com/in/lawrence92/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- profdev row 2 -->
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/peyton-schales.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Sophomore</p>
+                    <p class="prof-role card-text">Computer Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Peyton Schales
+                    <div class = "card-subtitle p5">
+                      <em>Technical</em>
+                      <a href= "https://www.linkedin.com/in/peytons224/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
                     </div>
                   </div>
 
@@ -377,18 +1302,65 @@
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p100">Sophomore</p>
-                    <p class="prof-role card-text">Data Science</p>
+                    <p class="prof-role card-text p75">Sophomore</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Computer Science</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
                   <div class = "card-title p5"> Sara Miller
                     <div class = "card-subtitle p5">
-                      <em>Director of Marketing </em>
-                      <a href= "https://www.linkedin.com/in/sara-miller-173108257/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
+                      <em>Behavioral</em>
+                      <a href= "https://www.linkedin.com/in/sara-miller-173108257/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
                     </div>
                   </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        
+        </div>
+
+
+        <!--senior advisors-->
+
+        <div id="scrollto" class="p50 pl150 pr150">
+          <div class=" container-fluid hanken-grotesk">
+            <div class="row center" data-aos="fade-up">
+              <h1 class="header-DSgreen" style="font-size:70px;" data-aos="fade-up"> SENIOR ADVISORS</h1>
+            </div>
+          </div>
+        </div>
+
+        <div id="senior-advisor-members" class="container-fluid Pictures p30 pb50" style="background: radial-gradient(circle 350px, #fec069bb 10%, white);">
+
+          <div class = "container">
+
+            <div class="row p-4">
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/andrew-kim.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Senior</p>
+                    <p class="prof-role card-text">Data Science
+                      <br> & Economics</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Andrew Kim
+                    <a href= "https://www.linkedin.com/in/ackim2002/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
                 </div>
               </div>
 
@@ -396,26 +1368,66 @@
                 <div class="card">
                   <img
                     variant="top"
-                    src="./src/imgs/profiles/karen-lam.jpg"
+                    src="./src/imgs/profiles/mackenzie.jpg"
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text p75">Senior</p>
                     <p class="prof-role card-text">Data Science 
-                      <br> & Computer Science</p>
+                      <br> & Public Health</p>
                   </div> 
                 </div>
                 <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
                   
-                  <div class = "card-title p5"> Karen Lam
-                    <div class = "card-subtitle p5">
-                      <em>Director of Web Dev</em>
-                      <a href= "https://www.linkedin.com/in/k4rendlam/" target ="_blank"><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right"></i></a>
-                    </div>
+                  <div class = "card-title p5"> Mackenzie Moffit
+                    <a href= "https://www.linkedin.com/in/mackenzie-moffit/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
                   </div>
 
                 </div>
               </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/manas.jpg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text">Industrial Engineering
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Manas Chithirala
+                    <a href= "https://www.linkedin.com/in/manas-chithirala/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="prof-pic col-xs-6 col-s-6 col-md-3">
+                <div class="card">
+                  <img
+                    variant="top"
+                    src="./src/imgs/profiles/serena-li.jpeg"
+                    class="profile card-img-top"
+                  />
+                  <div class="card-img-overlay ovl">
+                    <p class="prof-role card-text p100">Junior</p>
+                    <p class="prof-role card-text">Data Science</p>
+                  </div> 
+                </div>
+                <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
+                  
+                  <div class = "card-title p5"> Serena Li
+                    <a href= "https://www.linkedin.com/in/s-erenali/" target=”_blank”><i class="fab fa-linkedin fa-2x linkedin-blue pb30" style="float: right" target=”_blank”></i></a>
+                  </div>
+
+                </div>
+              </div>
+
             </div>
 
           </div>
@@ -425,48 +1437,45 @@
 
        </main>
 
+     <!-- Footer -->
 
-      <!-- Footer -->
-
-     <footer class="hanken-grotesk grey">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 p50">
-              <h4> DataStory </h4>
-              <a href="https://www.ocf.berkeley.edu">
-                <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
-                  alt="Hosted by the OCF" class="p50" />
-              </a>
-              <p class="mt-3 header-6">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
-              </p>
-            </div>
-            <div class="col-md-2 offset-md-1 p50">
-              <h5> General</h5>
-              <br />
-              <a class="header-7-2" href="about.html"> about </a>
-              <br />
-              <a class="header-7-2" href="about.html#members"> members </a>
-              <br />
-              <a class="header-7-2" href="projects.html"> projects </a>
-            </div>
-            <div class="col-md-2 p50">
-              <h5>Students</h5>
-              <br />
-              <a class="header-7-2" href="apply.html"> apply </a>
-              <br />
-              <a class="header-7-2" href="contact.html"> email </a>
-            </div>
-            <div class="col-md-2 p50">
-              <h5> Social Media</h5>
-              <br />
-              <a class="header-7-2" href="https://www.facebook.com/DataStoryConsulting/"> facebook </a>
-              <br />
-              <a class="header-7-2" href="https://www.linkedin.com/company/datastoryconsulting/"> linkedin </a>
-            </div>
+     <footer class="bg-green text-white py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <h4>DataStory</h4>
+            <a href="https://www.ocf.berkeley.edu" class="text-white">
+              <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+                alt="Hosted by the OCF" class="img-fluid p-2"/>
+            </a>
+            <p class="mt-3 small">We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.</p>
           </div>
-        </div >
-      </footer >
-
+          <div class="col-md-2">
+            <h5>General</h5>
+            <ul class="list-unstyled">
+              <li><a href="about.html" class="text-white">About Us</a></li>
+              <li><a href="projects.html" class="text-white">Projects</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Students</h5>
+            <ul class="list-unstyled">
+              <!-- <li><a href="apply.html" class="text-white">Apply</a></li> -->
+              <li><a href="contact.html" class="text-white">Email</a></li>
+              <!-- <li><a href="apply.html" class="text-white">Apply</a></li> -->
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Social Media</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://www.facebook.com/DataStoryConsulting/" class="text-white">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/company/datastoryconsulting/" class="text-white">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/datastoryberkeley/" class="text-white">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 

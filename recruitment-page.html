@@ -1,236 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
-	<head>
+  <!-- Title -->
+  <title> DataStory </title>
 
-    <!-- Title -->
-    <title> DataStory </title>
+  <!-- Page tab icon -->
+  <link href="./src/imgs/icon.png" rel="icon" type="image/png" />
 
-    <!-- Page tab icon -->
-    <link href="./src/imgs/icon.png" rel="icon" type="image/png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Paras Arora">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	    <!-- Required meta tags -->
-	    <meta charset="utf-8">
-			<meta name="author" content="Paras Arora">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	    <!-- Bootstrap -->
-	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-	        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font -->
+    <link
+        href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap'
+        rel="stylesheet">
 
-	    <!-- Font -->
-	    <link
-	        href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap'
-	        rel="stylesheet">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="./src/css/General.css">
 
-	    <!-- StyleSheet -->
-			<link rel="stylesheet" type="text/css" href="./src/css/General.css">
+  <!-- aos (animate on scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-		<!-- aos (animate on scroll) -->
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/23936ea4cc.js" crossorigin="anonymous"></script>
 
-    <!-- font awesome -->
-     <script src="https://kit.fontawesome.com/23936ea4cc.js" crossorigin="anonymous"></script>
+  <title>Recruitment Timeline</title>
 
+  <!-- Custom CSS -->
+  <style>
 
-	</head>
+    .timeline {
+      list-style: none;
+      padding: 0;
+    }
 
-	<body>
+    .timeline-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border-bottom: 1px solid #dee2e6;
+    }
 
-		<!-- -1. Navbar -->
+    .timeline-item:last-child {
+      border-bottom: none;
+    }
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light white">
-			<div class="container">
-			  <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
-				<img
-				  src="./src/imgs/logo.png"
-				  height="96"
-				  width="210"
-				/>
-			  </a>
-		
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-				  
-					<li class="nav-item" data-aos="fade-down" data-aos-duration="700">
-				  <a class="nav-link" href="about.html">ABOUT</a>
-				  </li>
-				  <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
-					<a class="nav-link" href="projects.html">PROJECTS</a>
-				  </li>
-				  <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
-					<a class="nav-link" href="events.html">EVENTS</a>
-				  </li>
-				  <!--<li class="nav-item" data-aos="fade-down" data-aos-duration="800">
-              <a class="nav-link" href="our-team.html">COMMITTEES</a>
-          </li> -->
-          <li class="nav-item" data-aos="fade-down" data-aos-duration="850">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-          </li>
-          <li class="nav-item" data-aos="fade-down" data-aos-duration="900">
-              <a class="nav-link" href="recruitment-page.html">APPLY</a>
-          </li>
-				  
-				</ul>
-			  </div>
-			</div class="container">
-    </nav>
+    .timeline-item .date {
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      display: inline-block;
+      width: 100px; /* Adjust the width as needed */
+      height: 100px; /* Adjust the height as needed */
+      border-radius: 100%;
+      text-align: center;
+      line-height: 96px; /* Center text vertically */
+      margin-right: 10px; /* Adjust the margin as needed */
+      background: #FEBF69;
+    }
 
-        	<!-- 0. Main Banner -->
-            <div class="container-fluid hanken-grotesk bg-green">
-			
-                <div style = "height: 400px; text-align: center;" data-aos="fade-in" data-aos-duration="1000">
+    .timeline-item .event {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+  </style>
+</head>
 
-                    <br></br>
-                    <br></br>
-                    <br></br>
+<body>
+
+<!--  Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light white">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
+    <img
+      src="./src/imgs/logo.png"
+      height="96"
+      width="210"
+    />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
       
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="700">
+        <a class="nav-link" href="about.html">ABOUT</a></li>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
+        <a class="nav-link" href="projects.html">PROJECTS</a></li>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="750">
+        <a class="nav-link" href="events.html">EVENTS</a></li>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="800">
+          <a class="nav-link" href="our-team.html">OUR TEAM</a></li> 
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="850">
+          <a class="nav-link" href="recruitment-page.html">APPLY</a></li>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="900">
+          <a class="nav-link" href="coffee-chats.html">COFFEE CHATS</a></li>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="950">
+          <a class="nav-link" href="contact.html">CONTACT</a></li>
       
-                  <h1 class="header-DSorange" data-aos="fade-down" data-aos-duration="800">Join Our Team</h1>
-               
-                </div>
-              </div>
+    </ul>
+    </div>
+  </div class="container">
+ </nav>
 
 
-              <div class="container-fluid hanken-grotesk bg-orange">
-			
-                <div style = "height: 170px; text-align: center;" data-aos="fade-in" data-aos-duration="1000">
+    	<!-- 0. Main Banner -->
 
-              <br></br>
-            <h3 class = "ds-green" style = "text-align: center;">Stay Up to Date With Our Interest Form! 
-              <br> 
-              <a href= "https://tinyurl.com/datastoryfa23interest" target=”_blank;”>  <span class= "light" style=" font-size: 20px; text-align: center;">link: https://tinyurl.com/datastoryfa23interest</span> </a>
-              </h3>
+<div class="main-content light pr150 pl150 pb100" style="height: 740px; background: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        #FEBF69 99%
+      );" data-aos="fade-in" data-aos-duration="500">
+  <h1 class="ds-green p100" style="font-size: 72px; text-align: left;" data-aos="fade-down" data-aos-duration="500">
+    SPRING 2024 APPS 
+    <br>COMING SOON
+  </h1>
 
-              <!--<a href="apply.html" target=”_blank;”><button class=" btn btn-primary btn-lg mt-1 mb-3">&nbsp; LINK TO APPLICATION &nbsp; </button></a>
-                    <br></br>-->
-               
-                </div>
-              </div>
+  <h5 class="ds-green" style="font-size: 20px; text-align: left;">
+    Scroll down to read up on our recruitment timeline, to sign up for coffee chats, and most importantly, to apply!
+  </h5>
 
-             
-
-
-              
-        <div class="container-fluid bg-light mt-5" style="background: radial-gradient(circle 700px, #fec069bb 10%, white);" id="scrollto">
-            <div class="container">
-            <div class="p100 pb100 pr150 pl150">
+</div>
 
 
-                <div class="row center" data-aos="fade-up">
-                    <h1 class="header-DSgreen hanken-grotesk" style = "font-size: 80px; text-align: center; ">RECRUITMENT TIMELINE</h1>
-                </div>
-            
-                <div class="hanken-grotesk p50 pb100 pr150 pl150">
+ <div class="container bg-green mt-5" id="scrollto">
+  <div class="container">
+    <div class="projects pb50 p50 pr150 pl150">
+      <div class="row center" data-aos="fade-up">
+        <h1 class="header-DSorange hanken-grotesk" style = "font-size: 60px;">RECRUITMENT 
+          <BR>TIMELINE ----> </h1>
+      </div>
+    </div>
+  </div>
+</div>
+      
 
-                    <h1>TABLING + APPS OPEN</h1>
-                    <h4><i>catch us @ sproul starting on the 28th!</i></h4>
-                    <a href="https://forms.gle/DYucgnzU5kJrPD94A" target=”_blank;”><button class=" btn btn-primary btn-lg mt-1 mb-3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;APPLY HERE!&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
-                    <br></br>
-                    <h1>COFFEE CHATS</h1>
-                    <a href="https://docs.google.com/spreadsheets/d/1sS4hd5ZKUoU8OnLirRYLF-oIL91Nkrxk8hoiczfFfHE/edit#gid=0" target=”_blank;”><button class=" btn btn-primary btn-lg mt-1 mb-3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SIGN UP HERE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
-                    <br></br>
-                    <h1>INFOSESSION 1</h1>
-                    <h4><i>8/31 8PM @ WHEELER 108</i></h4>
-                    <br></br>
-                    <h1>INFOSESSION 2</h1>
-                    <h4><i>9/6 8PM @ WHEELER 102</i></h4>
-                    <br></br>
-                    <h1>WOMEN'S NIGHT</h1>
-                    <h4><i>9/7 7PM @ DWINELLE 182</i></h4>
-                    <br></br>
-                    <h1>APPS DUE 9/8 @ 9PM!</h1>
-                    <h4><i>INTERVIEWS 9/9 & 9/10</i></h4>
+<div class="container mt-5">
+  <div class="row justify-content-center">
 
-                    <br></br>
+    <ul class="timeline">
 
-                    <h5 class = "ds-green"> QUESTIONS? REACH OUT TO US: <a href="mailto: datastory.president@gmail.com">datastory.president@gmail.com<a></h5>
-
-                    
-                    
-
-                  </div>
-              
-
-
-            </div>
-            </div>
-          </div>
-
-
-     <!-- Footer -->
-
-     <footer class="bg-green">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 p50 pb30" style = "color: white;">
-            <h4> DataStory </h4>
-            <a href="https://www.ocf.berkeley.edu">
-              <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
-                alt="Hosted by the OCF" class="p10"/>
-            </a>
-            <p class="mt-3 header-6" style = "color: white;">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
-            </p>
-          </div>
-          <div class="col-md-2 offset-md-1 p50">
-            <h5 style = "color: white;"> General</h5> 
-            <div>
-            <a class="header-7" href="about.html" style = "color: white;">About Us </a>
-
-            <br />
-            <a class="header-7" href="projects.html" style = "color: white;">Projects </a>
-            </div>
-          </div>
-          <div class="col-md-2 p50">
-            <h5 style = "color: white;">Students</h5>
-            <div>
-            <!-- <a class="header-7" href="apply.html" style = "color: white;"> apply </a> -->
-            
-            <a class="header-7" href="contact.html" style = "color: white;"> Email </a>
-            <br />
-            <!-- <a class="header-7" href="apply.html" style = "color: white;"> apply </a> -->
-          </div>
-          </div>
-          <div class="col-md-2 p50">
-            <h5 style = "color: white;"> Social Media</h5>
-            <div>
-            <a class="header-7" href="https://www.facebook.com/DataStoryConsulting/" style = "color: white;"> Facebook </a>
-            <br />
-            <a class="header-7" href="https://www.linkedin.com/company/datastoryconsulting/" style = "color: white;"> Linkedin </a>
-            <br />
-              <a class="header-7" href="https://www.instagram.com/datastoryberkeley/" style = "color: white;"> Instagram </a>
-          </div>
-          </div>
+      <li class="timeline-item">
+        <div class="date">01/16</div>
+        <div class="event">
+          <h1>Applications Open!</h1>
+          <h4><i>Link Coming Soon</i></h4>
+          <!--<a href="https://www.youtube.com/watch?v=lSXtTlGK8sM" target=”_blank” class="btn btn-primary">Click to Apply</a>-->
         </div>
-      </div >
-    </footer >
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/16</div>
+        <div class="event">
+          <h1>Coffee Chats</h1>
+          <h4><i>Get to know us :)</i></h4>
+          <a href="coffee-chats.html" target=”_blank” class="btn btn-primary">Click to Sign Up</a>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/19</div>
+        <div class="event">
+          <h1>Tabling</h1>
+          <h4><i>Come say hi to us on sproul!</i></h4>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/25</div>
+        <div class="event">
+          <h1>Infosession #1</h1>
+          <h4><i>8PM @ Wheeler 120</i></h4>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/29</div>
+        <div class="event">
+          <h1>Women's Night</h1>
+          <h4><i>7PM @ Ishi Court</i></h4>
+          <h6>Use the entrance by VLSB or <a href="https://dkess.me/dwinelle/#src=Main%20entrance&dst=Ishi%20Courtyard" target=”_blank” class="ds-green">this helpful tool</a> for directions </h6>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/30</div>
+        <div class="event">
+          <h1>Infosession #2</h1>
+          <h4><i>8PM @ Wheeler 204</i></h4>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="date">01/31</div>
+        <div class="event">
+          <h1>Applications Due @ 9PM!</h1>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="event">
+          <h1><i>&nbsp;&nbsp;Interviews 02/01 - 02/03</i></h1>
+        </div>
+      </li>
+
+      <!-- Add more timeline items as needed -->
+
+    </ul>
+  </div>
+</div>
+
+<footer class="bg-green text-white py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h4>DataStory</h4>
+        <a href="https://www.ocf.berkeley.edu" class="text-white">
+          <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+            alt="Hosted by the OCF" class="img-fluid p-2"/>
+        </a>
+        <p class="mt-3 small">We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.</p>
+      </div>
+      <div class="col-md-2">
+        <h5>General</h5>
+        <ul class="list-unstyled">
+          <li><a href="about.html" class="text-white">About Us</a></li>
+          <li><a href="projects.html" class="text-white">Projects</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5>Students</h5>
+        <ul class="list-unstyled">
+          <!-- <li><a href="apply.html" class="text-white">Apply</a></li> -->
+          <li><a href="contact.html" class="text-white">Email</a></li>
+          <!-- <li><a href="apply.html" class="text-white">Apply</a></li> -->
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5>Social Media</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/DataStoryConsulting/" class="text-white">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/company/datastoryconsulting/" class="text-white">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/datastoryberkeley/" class="text-white">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
 
-		<!-- aos script -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  	<script>
-    	AOS.init();
-  	</script>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-	        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-	        crossorigin="anonymous"></script>
-	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-	        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-	        crossorigin="anonymous"></script>
-	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-	        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-	        crossorigin="anonymous"></script>
+<!-- aos script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
-	</body>
-
-
+</body>
 </html>
