@@ -18,9 +18,15 @@
 	        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	    <!-- Font -->
-	    <link
-	        href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap'
-	        rel="stylesheet">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+      <style>
+        body {
+            font-family: 'Merriweather', sans-serif;
+        }
+   		</style>
 
 	    <!-- StyleSheet -->
 			<link rel="stylesheet" type="text/css" href="./src/css/General.css">
@@ -45,7 +51,7 @@
 
 		<!-- -1. Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light white" style = "font-family: Lato;">
 			<div class="container">
 			  <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
 				<img
@@ -91,15 +97,15 @@
             to bottom,
             rgb(255, 255, 255) 20%,
             #fec06916
-          ),url('./src/imgs/23fa-clubwide-photo.jpeg');" data-aos="fade-in" data-aos-duration="500">
-            <h1 class="ds-green p100" style = "font-size: 60px;" data-aos="fade-down" data-aos-duration="800">WHO WE ARE </h1>
+          ),url('./src/imgs/24sp-exec.JPG'); font-family: Lato;" data-aos="fade-in" data-aos-duration="500">
+            <h1 class="header-DSgreen p100" style = "font-size: 60px;" data-aos="fade-down" data-aos-duration="800">WHO WE ARE </h1>
             <em class="header-3 p5 ds-green" style="color: #557a74;" data-aos="fade-down" data-aos-duration="500">"community through data science"</em>
           </div>
         </div>
 
 
         <div id="scrollto" class="light-grey p-5">
-          <div class=" container-fluid  hanken-grotesk">
+          <div class=" container-fluid" style = "font-family: Lato; font-weight: 600;">
             <div class="row center" data-aos="fade-up">
               <h1 class="header-DSgreen" style="font-size:60px;" data-aos="fade-up"> OUR MISSION</h1>
             </div>
@@ -115,7 +121,7 @@
                 </div>
               </div>
               <div class="col-md-6" data-aos="fade-left">
-                <p style = "font-size: 20px;"> 
+                <p style = "font-size: 20px; font-family: Lato;"> 
                   <span style="color:#FEBF69; font-size: 60px;">Data</span><span style="color:#408073; font-size: 60px;">Story </span>
                                 
                   <br> ...was founded in order to empower students with the knowledge, 
@@ -131,7 +137,7 @@
             <div class="row p5 p-2" >
               <div class="col-md-6" data-aos="fade-right">
                 <h5 class="header-5 card-title ds-green" style = "font-size: 60px;">WHAT WE DO</h5>
-                <p class="m10" style = "font-size: 20px;"> 
+                <p class="m10" style = "font-size: 20px; font-family: Lato;"> 
                   
                   DataStory is focused on creating value for startups, NGOs, and corporations 
                   in a various assortment of fields, including data analytics, software development, 
@@ -150,12 +156,12 @@
             <div class="row p-2">
               <div class="col-md-6" data-aos="fade-right">
                 <div class="card">
-                  <img src ="./src/imgs/kearney-case-comp.jpg" class="card-img-top" alt="oops" />
+                  <img src ="./src/imgs/24sp-newmems.jpeg" class="card-img-top" alt="oops" />
                 </div>
               </div>
               <div class="col-md-6" data-aos="fade-left">
                 <h5 class="header-5 card-title ds-green" style = "font-size: 60px;">NOT ONLY THAT,</h5>
-                <p style = "font-size: 20px;"> 
+                <p style = "font-size: 20px; font-family: Lato;"> 
                   Through our Exploration program, we help develop our members 
                   through educating them on not only data science technologies 
                   and techniques, but professional skills as well. We also host 
@@ -175,9 +181,9 @@
 
 
       <div id="scrollto" class="p75">
-        <div class=" container-fluid hanken-grotesk">
+        <div class=" container-fluid" style = "font-family: Lato;">
           <div class="row center" data-aos="fade-up">
-            <h1 class="header-DSgreen p-1" style="font-size:60px; text-align: center;" data-aos="fade-up"> EXECUTIVE BOARD</h1>
+            <h1 class="header-DSgreen p-1" style="font-size:60px; font-weight: 600; text-align: center;" data-aos="fade-up"> EXECUTIVE BOARD</h1>
           </div>
         </div>
       </div>
@@ -185,7 +191,7 @@
 
         <!-- exec row 1 -->
 
-        <div id="exec-members" class="container-fluid Pictures p50" style="background: radial-gradient(circle 625px, #fec069bb 10%, white);">
+        <div id="exec-members" class="container-fluid Pictures p50" style="background: radial-gradient(circle 625px, #fec069bb 10%, white); font-family: Lato;">
 
           <div class = "container">
 
@@ -458,7 +464,7 @@
                     class="profile card-img-top"
                   />
                   <div class="card-img-overlay ovl">
-                    <p class="prof-role card-text p75">Junior</p>
+                    <p class="prof-role card-text p75">Sophomore</p>
                     <p class="prof-role card-text">Data Science 
                       <br> & Business
                       Administration</p>
@@ -509,7 +515,7 @@
 
      <!-- Footer -->
 
-     <footer class="bg-green text-white py-5">
+     <footer class="bg-green text-white py-5" style = "font-family: Lato;">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-4">

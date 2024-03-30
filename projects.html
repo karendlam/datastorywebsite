@@ -18,10 +18,16 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 	        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	    <!-- Fonts -->
-	    <link
-	        href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap'
-	        rel="stylesheet">
+	    <!-- Font -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+      <style>
+        body {
+            font-family: 'Merriweather', sans-serif;
+        }
+   		</style>
 
 	    <!-- StyleSheet -->
 			<link rel="stylesheet" type="text/css" href="./src/css/General.css">
@@ -38,7 +44,7 @@
 	<body>
 
 		<!-- -1. Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light white" style = "font-family: Lato;">
 			<div class="container">
 			  <a class="navbar-brand" href="index.html" data-aos="fade-down" data-aos-duration="700">
 				<img
@@ -79,13 +85,13 @@
       <main class="CONTAINER">
 
     	<!-- 0. Main Banner -->
-        <div class="container-fluid hanken-grotesk">
+        <div class="container-fluid">
           <div class="main-content light" style="height: 750px; background-image: linear-gradient(
             to bottom,
             rgb(255, 255, 255) 20%,
             #fec06916
-          ),url('./src/imgs/consulting/23fa-consulting-group.jpeg');" data-aos="fade-in" data-aos-duration="500">
-            <h1 class="header-DSgreen p-2" style="font-size:60px;" data-aos="fade-down" data-aos-duration="500">
+          ),url('./src/imgs/consulting/24sp-consulting.jpeg');" data-aos="fade-in" data-aos-duration="500">
+            <h1 class="ds-green p-2" style="font-size:60px; font-family: Lato; font-weight: 600;" data-aos="fade-down" data-aos-duration="500">
               <br>
               <br>
               CONSULTING PROJECTS
@@ -99,7 +105,7 @@
         <div class="container mt-5" id="scrollto" style="background: radial-gradient(circle 400px, #fec069bb 10%, white);">
           <div class="projects p75 pb100">
             <div class="row center p-2" data-aos="fade-up">
-              <h1 class="header-DSgreen hanken-grotesk" style = "font-size: 60px; text-align: center;">RECENT PROJECTS</h1>
+              <h1 class="ds-green" style = "font-size: 60px; text-align: center;">RECENT PROJECTS</h1>
             </div>
             
             <div class="row center p10 " data-aos="fade-up">
@@ -109,31 +115,34 @@
                   <img src="./src/imgs/edtrust-logo.jpeg" class="card-img-top"/>
                   <div class="card-body">
                     <h5 class="card-title">EdTrust</h5>
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato;">
                     Constructed an ETL pipeline to efficiently collect, clean and upload education related data to the Snowflake cloud based storage platform
-                    </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
                   </div>
                 </div>
               </div>
             
-              <div class="col-md-3 col-sm-12 mt-5 p-3" data-aos="fade-up">
+              <div class="col-md-3 col-sm-12 mt-5 p-3" style="pointer-events: none;" data-aos="fade-up">
                 <div class="card">
-                  <img src="./src/imgs/epri-logo.png" style="pointer-events: none;" class="card-img-top"/>
+                  <img src="./src/imgs/epri-logo.png"  class="card-img-top"/>
                   <div class="card-body">
                     <h5 class="card-title">EPRI</h5>
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato;">
                     Created interactive climate visualizations with historical and predicted/modeled data to be embedded into company website using Bokeh, Panel, and HoloViz
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-3 col-sm-12 mt-5 p-3" data-aos="fade-up">
+              <div class="col-md-3 col-sm-12 mt-5 p-3" style="pointer-events: none;" data-aos="fade-up">
                 <div class="card">
-                  <img src="./src/imgs/plan-international-logo.png" style="pointer-events: none;" class="card-img-top"/>
+                  <img src="./src/imgs/plan-international-logo.png"  class="card-img-top"/>
                   <div class="card-body">
                     <h5 class="card-title">Plan International</h5>
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato;">
                     Produced a Power BI dashboard that included KPI metrics highlighting donor contribution insights such as amount, frequency and channels.
                     </p>
                   </div>
@@ -151,10 +160,10 @@
         <div class = "container mb50">
 
           <div class="row center">
-            <h1 class="header-DSgreen hanken-grotesk p-3" style="font-size:60px;" data-aos="fade-up">OUR SERVICES</h1>
+            <h1 class="ds-green p-3" style="font-size:60px;" data-aos="fade-up">Our Services</h1>
           </div>
 
-        <div class="row center m50 mb10" style = "font-size:20px; color: black; pointer-events: none;">
+        <div class="row center m50 mb10" data-aos="fade-up" style = "font-family: Lato; font-size:17px; color: black; pointer-events: none;">
 
           <div class="prof-pic col-xs-3 col-s-3 col-md-2">
             <div class="card">
@@ -165,7 +174,7 @@
               />
             </div>
             <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-              <div class = "card-title p5" style = "text-align: center;"> Machine Learning & AI
+              <div class = "card-title p5" style = "text-align: left;"> <em>Machine Learning & AI</em>
               </div>
             </div>
           </div>
@@ -179,7 +188,7 @@
               />
             </div>
             <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-              <div class = "card-title p5" style = "text-align: center;"> Software Development
+              <div class = "card-title p5" style = "text-align: left;"> <em>Software Development</em>
               </div>
             </div>
           </div>
@@ -193,7 +202,7 @@
               />
             </div>
             <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-              <div class = "card-title p5" style = "text-align: center;"> Data Visualization
+              <div class = "card-title p5" style = "text-align: left;"> <em>Data Visualization & Dashboards</em>
               </div>
             </div>
           </div>
@@ -207,13 +216,13 @@
               />
             </div>
             <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-              <div class = "card-title p5" style = "text-align: center;"> Data Driven Business Strategy
+              <div class = "card-title p5" style = "text-align: left;"> <em>Data Driven Business Strategy</em>
               </div>
             </div>
           </div>
       </div>
 
-      <div class="row center m10 mb50" style = "font-size:20px; color: black; pointer-events: none;">
+      <div class="row center m10 mb50 pb-1" data-aos="fade-up" style = "font-family: Lato; font-size:17px; color: black; pointer-events: none;">
 
         <div class="prof-pic col-xs-3 col-s-3 col-md-2">
           <div class="card">
@@ -224,7 +233,7 @@
             />
           </div>
           <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-            <div class = "card-title p5" style = "text-align: center;"> Data Management & Strategy
+            <div class = "card-title p5" style = "text-align: left;"> <em>Data Management & Strategy</em>
             </div>
           </div>
         </div>
@@ -238,7 +247,7 @@
             />
           </div>
           <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-            <div class = "card-title p5" style = "text-align: center;"> Data Driven Marketing
+            <div class = "card-title p5" style = "text-align: left;"> <em>Data Driven Marketing</em>
             </div>
           </div>
         </div>
@@ -252,7 +261,7 @@
             />
           </div>
           <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-            <div class = "card-title p5" style = "text-align: center;" > Streamlining Work Processes
+            <div class = "card-title p5" style = "text-align: left;" > <em>Streamlining Work Processes</em>
             </div>
           </div>
         </div>
@@ -266,7 +275,7 @@
             />
           </div>
           <div style = "background-color: rgb(255, 255, 255); padding: 13px;">
-            <div class = "card-title" style = "text-align: center;"> Data Mining
+            <div class = "card-title" style = "text-align: left;"> <em>Data Mining</em>
             </div>
           </div>
         </div>
@@ -282,7 +291,7 @@
           <div class="container">
           <div class="projects p100 pb100">
             <div class="row center" data-aos="fade-up">
-              <h1 class="header-DSorange hanken-grotesk p-3" style = "font-size: 60px;">SOME OF OUR PAST PROJECTS</h1>
+              <h1 class="header-DSorange p-3" style = "font-size: 60px;">SOME OF OUR PAST PROJECTS</h1>
             </div>
             
             <div class="row center p30 pb100 ml30 mr30" data-aos="fade-up">
@@ -291,7 +300,7 @@
                 <div class="card bg-green border-0">
                   <img src="./src/imgs/experian-transparent.png" class="card-img-top" />
                   <div class="card-body light">
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato; font-size: 18px;">
                       Automated SQL query generation and created Matplotlib visualizations. Analyzed utilization rate metrics of market trade data.
                     </p>
                   </div>
@@ -303,7 +312,7 @@
                 <div class="card bg-green border-0">
                   <img src="./src/imgs/farmlink-transparent.png" class="card-img-top"/>
                   <div class="card-body light">
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato; font-size: 18px;">
                       Conducted an ML-driven data analysis to segment donors. Identified key factors to increase donations from newsletters.
                     </p>
                   </div>
@@ -314,7 +323,7 @@
                 <div class="card bg-green border-0">
                   <img src="./src/imgs/copilot-transparent.png" class="card-img-top"/>
                   <div class="card-body light">
-                    <p class="card-text">
+                    <p class="card-text" style = "font-family: Lato; font-size: 18px;">
                       Conducted research and analysis on pricing trends in the electric used-vehicle market. Created white paper guide for consumers.
                     </p>
                   </div>
@@ -332,7 +341,7 @@
 
         <div class="container mt-5" id="scrollto">
           <div class="projects pb150">
-            <div class="row center bg-orange hanken-grotesk" data-aos="fade-up">
+            <div class="row center bg-orange" style = "font-family: Lato;" data-aos="fade-up">
               <h1 class="light p10">
                 Other Past Clients
             </h1>
@@ -349,7 +358,7 @@
 
       <!-- Footer -->
 
-      <footer class="bg-green text-white py-5">
+      <footer class="bg-green text-white py-5" style = "font-family: Lato;">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-4">
